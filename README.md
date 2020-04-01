@@ -8,7 +8,7 @@ This is a corona tracker bot, that gives latest information regarding covid-19 c
   ##### pip install -r requirements.txt
   ##### python run myCorona_bot.py
 - And You are all set
-### Track the corona case and stay at home. we will fight together with this pandemic.
+### Track the corona cases and stay at home. we will fight together till the end with this pandemic.
 
 ## It would be nice if you star this repository
 
