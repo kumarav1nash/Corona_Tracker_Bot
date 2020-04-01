@@ -1,0 +1,5 @@
+###### Requirements######`
+gTTS
+requests
+beautifulsoup4
+tabulate
