@@ -6,7 +6,7 @@ This is a corona tracker bot, that gives latest information regarding covid-19 c
 - navigate to the downloaded or cloned directory in your computer
 - run the followiing commands
   ##### pip install -r requirements.txt
-  ##### python run myCorona_bot.py
+  ##### python myCorona_bot.py
 - And You are all set
 ### Track the corona cases and stay at home. we will fight together till the end with this pandemic.
 
