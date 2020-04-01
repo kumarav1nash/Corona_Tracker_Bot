@@ -11,3 +11,6 @@ This is a corona tracker bot, that gives latest information regarding covid-19 c
 ### Track the corona case and stay at home. we will fight together with this pandemic.
 
 ## It would be nice if you star this repository
+
+#### NOTE : if you are on Ubuntu you may need to download mpg321 package here is the command for that
+- sudo apt-get install -y mpg321
