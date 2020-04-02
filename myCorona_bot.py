@@ -59,6 +59,9 @@ while True:
         for row in all_rows:
             stat = extract_contents(row.find_all('td'))
             print(stat)
+        print("---------------------------------------------------------------------------")
+        print("\n it will take some time depending on your network coneection, plese wait! \n")
+        print("---------------------------------------------------------------------------")
 
         alert = "Attention Please!, The Number of cases of Covid 19 has increased and total active cases till now is {0}. The total death toll so far is {1}. I request you to please stay at home and help the country to fight this pandemic".format(
         _active_case, _total_death)
@@ -66,11 +69,12 @@ while True:
         _active_case, _total_death)
         alert_sound = gTTS(text=alert, lang='en', slow=False)
         alert_sound_hi = gTTS(text=alert_hindi, lang='hi', slow=False)
-        # alert_sound.save("alarm.mp3")
+        alert_sound.save("alarm.mp3")
         alert_sound_hi.save("alarm_hi.mp3")
         # Playing the converted file
-        os.system("mpg321 alarm_hi.mp3")
         os.system("mpg321 alarm.mp3")
+        os.system("mpg321 alarm_hi.mp3")
+        
     else:
         print("No Change! {}".format(datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S')))
         print(past_data)
